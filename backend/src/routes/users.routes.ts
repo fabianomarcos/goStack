@@ -38,6 +38,7 @@ usersRouter.patch(
     delete (await user).password;
 
     return response.json(user);
-  });
+  }
+);
 
 export default usersRouter;
